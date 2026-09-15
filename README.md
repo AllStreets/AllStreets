@@ -39,6 +39,15 @@ the part that's already working.
 
 ## Selected work
 
+**Scout** &nbsp;·&nbsp; <sub>Flexport · internal · 30+ countries</sub>
+<br/>I was hired as an inbound SDR and selected to lead workflow automation and Clay-based data
+enrichment for the sales organisation. That mandate became Scout: prospect discovery, account
+intelligence and enrichment pipelines consolidated into one internal platform, comparable in scope to
+LinkedIn Sales Navigator. It is now used by Flexport sales employees in more than 30 countries, and my
+team has held 100% of quota throughout. The only system on this page whose adoption was decided by
+other people.
+
+
 **[ONEXUS](https://github.com/AllStreets/ONEXUS)** &nbsp;·&nbsp; <sub>Python · 1,353 tests</sub>
 <br/>A local-first agent runtime built around **Aegis**, a capability arbiter. An agent declares
 filesystem reach, outbound domains and tools in a manifest; every call is checked against it,
