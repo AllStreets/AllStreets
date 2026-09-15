@@ -18,8 +18,8 @@
 
 ## The through-line
 
-I built four systems over five months without planning them as a set. They converged on
-the same architecture anyway, and I only noticed afterwards:
+I built four systems over five months without planning them as a set. They converged on the
+same architecture anyway, and I only noticed afterwards:
 
 | | LOOM | ONEXUS | WFR | SMADP |
 |---|---|---|---|---|
@@ -30,61 +30,56 @@ the same architecture anyway, and I only noticed afterwards:
 | **write down what happened** | git timeline | Chronicle | route ledger | chronicle log |
 | **earn autonomy, don't grant it** | consent cards | suggest → autonomous | trust sentinel | evidence ladder |
 
-Every one of them is the same bet: an autonomous agent should have to say what it needs
-before it runs, be refused when it asks for more, be stoppable mid-flight, and leave a
-record you can read afterwards. I find that more interesting than making agents capable,
-because capability is the part that's already working.
+Every one of them is the same bet: an autonomous agent should have to say what it needs before
+it runs, be refused when it asks for more, be stoppable mid-flight, and leave a record you can
+read afterwards. I find that more interesting than making agents capable, because capability is
+the part that's already working.
 
 ---
 
-## Frontend
+## Selected work
 
-*Interfaces for things that are hard to see.*
+**[ONEXUS](https://github.com/AllStreets/ONEXUS)** &nbsp;·&nbsp; <sub>Python · 1,353 tests</sub>
+<br/>A local-first agent runtime built around **Aegis**, a capability arbiter. An agent declares
+filesystem reach, outbound domains and tools in a manifest; every call is checked against it,
+allowed or denied, and appended to a ledger that is never rewritten. Trust is earned from recorded
+outcomes and decides how much rope a module gets — from *suggest only* up to *fully autonomous*.
+A static test AST-parses every kernel module and proves none but Aegis can open a socket.
 
-**[AUSPEX](https://github.com/AllStreets/AUSPEX)** — a living globe of the planet's perils
-and breakthroughs, free and login-free. Autonomous pipelines read USGS, GDACS, NASA FIRMS,
-Launch Library and global RSS, score each event for severity *and* confidence, and render it
-honestly — calm where the world is calm, red reserved for real danger. Built against the
-doom-optimised feed. `134 tests · 1,000-city layer · disaster path needs zero API keys`
+**[LOOM](https://github.com/AllStreets/loom)** &nbsp;·&nbsp; <sub>Rust · Tauri · TypeScript · 1,315 tests</sub>
+<br/>An offline computer that builds itself. Describe a capability in one sentence and a local
+model plans it, writes the code *and its tests*, proves the whole thing in a sandbox, repairs its
+own failures, commits to a git timeline — then asks permission before the new organ may run.
+Powers are declared in a manifest, budgeted, and revocable while running. No cloud, no
+subscription; the grid goes down and it still evolves.
 
-**[LOOM](https://github.com/AllStreets/loom)** — a Tauri/React shell over a Rust core, and
-the design system that goes with it: a living dashboard, an orb that reacts to what the
-machine is doing, offline whisper + piper voice, a ⌘K palette and voice sharing one command
-catalog so the two can never drift apart. `1,315 tests`
+**[SMADP](https://github.com/AllStreets/SMADP)** &nbsp;·&nbsp; <sub>Python · Docker · 973 tests</sub>
+<br/>*Safe Multi-Agent Deployment Platform.* Nobody has systematically studied what happens when
+the coding agent, the browser agent and the email agent all share your filesystem and OAuth
+scopes. SMADP publishes that matrix — and grades every claim on a four-rung evidence ladder from
+*docs-only* to *executed-in-sandbox*. Eleven pairs have actually been run against each other;
+2,268 are labelled priors, in the data rather than in a footnote. The ladder is the contribution.
 
-## Backend
+**[AUSPEX](https://github.com/AllStreets/AUSPEX)** &nbsp;·&nbsp; <sub>JavaScript · Three.js · 134 tests · live</sub>
+<br/>A living globe of the planet's perils and breakthroughs, free and login-free. Autonomous
+pipelines read USGS, GDACS, NASA FIRMS, Launch Library and global RSS, score each event for
+severity *and* confidence, and render it honestly — calm where the world is calm, red reserved for
+real danger, good news carried beside the bad. Built against the doom-optimised feed.
 
-*Runtimes, pipelines, and the parts that say no.*
+**[ONEXUS-Agents](https://github.com/AllStreets/ONEXUS-Agents)** &nbsp;·&nbsp; <sub>Python · Astro · live</sub>
+<br/>The catalog the runtime reaches for. Nightly GitHub and Hugging Face crawl, with the ranking
+weights **published in source** — log-normalised popularity, a 90-day recency half-life, archived
+and template penalties — so any score can be recomputed independently rather than trusted.
 
-**[ONEXUS](https://github.com/AllStreets/ONEXUS)** — a local-first agent runtime built around
-**Aegis**, a capability arbiter. An agent declares filesystem reach, outbound domains and tools
-in a manifest; every call is checked against it, allowed or denied, and appended to a ledger
-that is never rewritten. Trust is earned from recorded outcomes and decides how much rope a
-module gets, from *suggest only* up to *fully autonomous*. A static test AST-parses every
-kernel module and proves none but Aegis can open a socket. `1,353 tests · Python`
-
-**[SMADP](https://github.com/AllStreets/SMADP)** — *Safe Multi-Agent Deployment Platform.*
-Nobody has systematically studied what happens when the coding agent, the browser agent and
-the email agent all share your filesystem and OAuth scopes. SMADP publishes that matrix — and
-grades every claim on a four-rung evidence ladder from *docs-only* to *executed-in-sandbox*.
-Eleven pairs have actually been run against each other; 2,268 are labelled priors, in the data
-rather than in a footnote. The ladder is the contribution. `973 tests · Python · Docker`
-
-**[ONEXUS-Agents](https://github.com/AllStreets/ONEXUS-Agents)** — the catalog the runtime
-reaches for. Nightly GitHub + Hugging Face crawl, composite ranking with **the weights published
-in source** — log-normalised popularity, 90-day recency half-life, archived and template
-penalties — so any score can be recomputed independently. `Python · Astro · live`
-
-## Misc
-
-**[EMBER](https://github.com/AllStreets/ember)** — an offline survival console for the day the
-network isn't there. A local LLM advisor, 38 field guides, offline navigation, a solar power
-budget, and a Forge that rewrites the console's own code from a plain-language prompt.
-Genuinely **zero external requests** — the only thing it ever talks to is `localhost`.
+**[EMBER](https://github.com/AllStreets/ember)** &nbsp;·&nbsp; <sub>vanilla JS · no build step</sub>
+<br/>An offline survival console for the day the network isn't there. A local LLM advisor, 38 field
+guides, offline navigation, a solar power budget, and a Forge that rewrites the console's own code
+from a plain-language prompt. Genuinely zero external requests — the only thing it ever talks to
+is `localhost`.
 
 ---
 
 <div align="center">
-<sub>Numbers above are ones I ran, not ones I estimated. Where a project publishes a large
-figure, the README next to it says how much of that was verified and how much was inferred.</sub>
+<sub>Numbers here are ones I ran, not ones I estimated. Where a project publishes a large figure,
+the README beside it says how much was verified and how much was inferred.</sub>
 </div>
