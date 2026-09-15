@@ -71,7 +71,7 @@ already works.
 </td><td valign="top">
 
 Hired as an inbound SDR, then selected to lead workflow automation and Clay-based enrichment for
-the sales organisation. That mandate became Scout: prospect discovery, account intelligence and
+the sales organization. That mandate became Scout: prospect discovery, account intelligence and
 enrichment pipelines in one internal platform, comparable in scope to LinkedIn Sales Navigator.
 Now used by Flexport sales employees in **more than 30 countries**; my team has held 100% of quota
 throughout.
@@ -92,9 +92,9 @@ filesystem reach, outbound domains and tools in a manifest; every call is checke
 allowed or denied, and appended to a ledger that is never rewritten. A static test AST-parses
 every kernel module and proves none but Aegis can open a socket.
 
-Then I [red-teamed it](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) —
-found that `revoke()` did not actually stop an agent holding a grant, fixed it, and published
-the six attacks that failed alongside the three that landed.
+Then I [red-teamed it](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md),
+found that `revoke()` did not actually stop an agent holding a grant, fixed it, and published the
+six attacks that failed alongside the three that landed.
 
 </td></tr>
 <tr><td width="150" valign="top">
@@ -107,7 +107,7 @@ the six attacks that failed alongside the three that landed.
 
 An offline computer that builds itself. Describe a capability in one sentence and a local model
 plans it, writes the code *and its tests*, proves it in a sandbox, repairs its own failures over
-bounded rounds, and commits to a git timeline — then asks permission before the new organ may run.
+bounded rounds, and commits to a git timeline. It then asks permission before the new organ may run.
 Powers are declared, budgeted and revocable while running. No cloud, no subscription, no telemetry.
 
 </td></tr>
@@ -125,7 +125,7 @@ SMADP publishes that matrix, with a tripwire engine that halts a run mid-flight 
 secret leaks or egress steps outside the allowlist.
 
 Every verdict carries its evidence rung as a field on the record. **Eleven** pairs have actually
-been executed against each other; 2,268 are labelled priors, in the data rather than a footnote.
+been executed against each other; 2,268 are labeled priors, in the data rather than a footnote.
 
 </td></tr>
 <tr><td width="150" valign="top">
@@ -138,7 +138,7 @@ been executed against each other; 2,268 are labelled priors, in the data rather 
 
 A living globe of the planet's perils **and** its breakthroughs, free and login-free. Autonomous
 pipelines read USGS, GDACS, NASA FIRMS, Launch Library and global RSS, score each event for
-severity *and* confidence, and render it honestly — calm where the world is calm, red reserved for
+severity *and* confidence, and render it honestly: calm where the world is calm, red reserved for
 genuine danger. The disaster path needs zero API keys, which is what lets it stay free.
 
 </td></tr>
@@ -150,8 +150,8 @@ genuine danger. The disaster path needs zero API keys, which is what lets it sta
 
 </td><td valign="top">
 
-A browser game about running a private orbital agency over a living Earth — real orbital mechanics,
-real world events, and a world that keeps evolving while you are offline. A scheduled server tick
+A browser game about running a private orbital agency over a living Earth, with real orbital
+mechanics, real world events, and a world that keeps evolving while you are offline. A scheduled server tick
 advances every away player's world, so you return to a digest of what changed without you.
 
 </td></tr>
@@ -180,7 +180,7 @@ for my own team.
 
 An offline survival console for the day the network isn't there: a local LLM advisor, 38 field
 guides, offline navigation, a solar power budget, and a Forge that rewrites the console's own code
-from a plain-language prompt. Genuinely zero external requests — the only thing it ever talks to
+from a plain-language prompt. Genuinely zero external requests; the only thing it ever talks to
 is `localhost`.
 
 </td></tr>
