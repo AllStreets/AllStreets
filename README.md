@@ -48,6 +48,13 @@ team has held 100% of quota throughout. The only system on this page whose adopt
 other people.
 
 
+**[Flexport SDR Console](https://github.com/AllStreets/Flexport-sales-dashboard)** &nbsp;·&nbsp; <sub>React · Express · 19,219 lines</sub>
+<br/>I wanted to work in freight forwarding, so instead of writing a cover letter I built the tool the
+job would need: ICP-scored prospects, a pipeline board, FRED macro data, live AIS vessel positions,
+live ADS-B aircraft, port-congestion rings, tariff tables and call-prep assistance in one console. The
+working core came together in a 30-hour weekend before my final interviews. I kept building it
+afterwards and ran it in production for my own team.
+
 **[ONEXUS](https://github.com/AllStreets/ONEXUS)** &nbsp;·&nbsp; <sub>Python · 1,353 tests</sub>
 <br/>A local-first agent runtime built around **Aegis**, a capability arbiter. An agent declares
 filesystem reach, outbound domains and tools in a manifest; every call is checked against it,
