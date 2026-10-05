@@ -11,7 +11,7 @@ By day I'm at Flexport, where on top of my sales role I was picked to lead workf
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://chicago-open-world.vercel.app"><img src="assets/chicago.jpg" alt="Chicago Open World: the Loop and Streeterville at dusk"/></a>
+<a href="https://chicago-open-world.vercel.app"><img src="assets/chicago.jpg" alt="Chicago Open World: the skyline at dusk from Lake Michigan, rendered live in the browser at Ultra quality"/></a>
 <h4><a href="https://chicago-open-world.vercel.app">Chicago Open World</a></h4>
 The whole city in 3D, built from City of Chicago and OpenStreetMap data. More than 100,000 buildings at their real heights, with windows that light up as the real sun sets.
 <br/><sub><a href="https://chicago-open-world.vercel.app">Live</a> · <a href="https://github.com/AllStreets/Chicago-Open-World">Source</a> · React, Three.js</sub>
