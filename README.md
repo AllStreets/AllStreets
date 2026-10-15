@@ -55,38 +55,38 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <table>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://chi-nine-zeta.vercel.app">CHI ATLAS</a></h4>
-A mission-control room for one city, with live CTA trains, scores and lake conditions on a 3D map of Chicago.
-<br/><sub><a href="https://chi-nine-zeta.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/chi">Code&nbsp;↗</a></sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://hyperion-flax.vercel.app">GAM3</a></h4>
-A browser game about running a private orbital agency, with real orbital mechanics over a live Earth.
-<br/><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <h4><a href="https://onexus-agents.vercel.app">ONEXUS Agents</a></h4>
 An evidence-graded catalog of open-source AI agents, ranked by published weights, with every claim labeled by how it was verified.
 <br/><sub><a href="https://onexus-agents.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS-Agents">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
-An offline computer that extends itself. Describe a capability in one sentence; a local model plans it, writes and tests the code, and asks before it runs.
-<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
+<h4><a href="https://allstreets.github.io/SMADP/">SMADP</a></h4>
+Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified.
+<br/><sub><a href="https://allstreets.github.io/SMADP/">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/SMADP">Code&nbsp;↗</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
-An offline console for when the grid goes down, with a local model, field guides and navigation, and no external requests.
-<br/><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub>
+<h4><a href="https://hyperion-flax.vercel.app">GAM3</a></h4>
+A browser game about running a private orbital agency, with real orbital mechanics over a live Earth.
+<br/><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/SMADP">SMADP</a></h4>
-Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified.
-<br/><sub><a href="https://github.com/AllStreets/SMADP">Code&nbsp;↗</a></sub>
+<h4><a href="https://chi-nine-zeta.vercel.app">CHI ATLAS</a></h4>
+A mission-control room for one city, with live CTA trains, scores and lake conditions on a 3D map of Chicago.
+<br/><sub><a href="https://chi-nine-zeta.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/chi">Code&nbsp;↗</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
+An offline computer that extends itself. Describe a capability in one sentence; a local model plans it, writes and tests the code, and asks before it runs.
+<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
+An offline console for when the grid goes down, with a local model, 38 field guides, maps and navigation. It runs on one laptop and makes no external requests.
+<br/><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub>
 </td>
 </tr>
 </table>
@@ -95,7 +95,7 @@ Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades 
 
 ### Agent safety
 
-Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS) is a local-first runtime that checks every tool call against the manifest the agent declared and writes each decision to an audit ledger. I [red-teamed it myself](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) and published what broke and how I fixed it. [SMADP](https://github.com/AllStreets/SMADP) analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified.
+Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS) is a local-first runtime that checks every tool call against the manifest the agent declared and writes each decision to an audit ledger. I [red-teamed it myself](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) and published what broke and how I fixed it. [SMADP](https://allstreets.github.io/SMADP/) analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified. [Crucible](https://crucible-weld.vercel.app) sets open-source agents against each other on one machine and publishes what they actually did, down to every run.
 
 <br/>
 
