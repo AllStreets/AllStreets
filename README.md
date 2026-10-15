@@ -5,7 +5,7 @@
 
 I design and build interfaces where the detail is the product: real-time 3D, information-dense tools, and software with AI inside it. I work from typography and motion down to shaders and frame budgets, because that is where an interface earns trust.
 
-Two convictions run through the work. An interface should survive close inspection. Software that acts for you should show its work and let you take it back.
+Two convictions run through my work. An interface should survive close inspection. Software that acts for you should show its work and let you take it back.
 
 At Flexport, alongside my sales role, I was picked to lead workflow automation for the sales team. That became **Scout**, an internal tool now used by Flexport sales teams in more than 30 countries. Before that, I founded two small software companies while studying at UNC.
 
@@ -32,7 +32,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://coranto-production.up.railway.app"><img src="assets/coranto.webp" width="100%" alt="CORANTO: the globe turning under live headlines, each pinned to the place it happened"/></a>
+<a href="https://coranto-production.up.railway.app"><img src="assets/coranto.webp" width="100%" alt="CORANTO's opening: a dive over Lake Michigan into Chicago, a pull-out to the whole globe, and the news view with its live feed"/></a>
 <h3><a href="https://coranto-production.up.railway.app">CORANTO</a></h3>
 <em>The news, placed on the planet.</em>
 <p>Live headlines on a 3D globe, each carrying its publisher, link, time and place. Stories are grouped across outlets, a source that goes down says so instead of going quiet, and anything a model wrote is labeled as such.</p>
@@ -54,29 +54,40 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 
 <table>
 <tr>
-<td valign="top" width="22%"><b>CHI ATLAS</b></td>
-<td valign="top">A mission-control room for one city: live CTA trains, scores and lake conditions on a 3D map of Chicago.</td>
-<td valign="top" width="17%"><sub><a href="https://chi-nine-zeta.vercel.app">Live&nbsp;↗</a>&ensp;<a href="https://github.com/AllStreets/chi">Code&nbsp;↗</a></sub></td>
+<td width="50%" valign="top">
+<h4><a href="https://chi-nine-zeta.vercel.app">CHI ATLAS</a></h4>
+A mission-control room for one city, with live CTA trains, scores and lake conditions on a 3D map of Chicago.
+<br/><sub><a href="https://chi-nine-zeta.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/chi">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://hyperion-flax.vercel.app">GAM3</a></h4>
+A browser game about running a private orbital agency, with real orbital mechanics over a live Earth.
+<br/><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub>
+</td>
 </tr>
 <tr>
-<td valign="top"><b>GAM3</b></td>
-<td valign="top">Run a private orbital agency in the browser, with real orbital mechanics over a live Earth.</td>
-<td valign="top"><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&ensp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub></td>
+<td width="50%" valign="top">
+<h4><a href="https://onexus-agents.vercel.app">ONEXUS Agents</a></h4>
+An evidence-graded catalog of open-source AI agents, ranked by published weights, with every claim labeled by how it was verified.
+<br/><sub><a href="https://onexus-agents.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS-Agents">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
+An offline computer that extends itself. Describe a capability in one sentence; a local model plans it, writes and tests the code, and asks before it runs.
+<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
+</td>
 </tr>
 <tr>
-<td valign="top"><b>ONEXUS Agents</b></td>
-<td valign="top">An evidence-graded catalog of open-source AI agents, ranked by published weights, with every claim labeled by how it was verified.</td>
-<td valign="top"><sub><a href="https://onexus-agents.vercel.app">Live&nbsp;↗</a>&ensp;<a href="https://github.com/AllStreets/ONEXUS-Agents">Code&nbsp;↗</a></sub></td>
-</tr>
-<tr>
-<td valign="top"><b>loom</b></td>
-<td valign="top">An offline computer that extends itself. Describe a capability in one sentence; a local model plans it, writes and tests the code, and asks before it runs.</td>
-<td valign="top"><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub></td>
-</tr>
-<tr>
-<td valign="top"><b>ember</b></td>
-<td valign="top">An offline console for when the grid goes down: a local model, field guides and navigation, and not one external request.</td>
-<td valign="top"><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub></td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
+An offline console for when the grid goes down, with a local model, field guides and navigation, and no external requests.
+<br/><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/SMADP">SMADP</a></h4>
+Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified.
+<br/><sub><a href="https://github.com/AllStreets/SMADP">Code&nbsp;↗</a></sub>
+</td>
 </tr>
 </table>
 
@@ -88,5 +99,8 @@ Under the interfaces, most of my work asks one question: how does an AI agent ea
 
 <br/>
 
-<sub>CONTACT</sub><br/>
-[connorevans29@gmail.com](mailto:connorevans29@gmail.com)
+### Contact:
+
+connorevans29@gmail.com
+
+<a href="mailto:connorevans29@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/email-dark.svg"><img src="assets/email-light.svg" height="44" alt="Send an email to connorevans29@gmail.com"></picture></a>
