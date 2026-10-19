@@ -72,9 +72,9 @@ A browser game about running a private orbital agency, with real orbital mechani
 <br/><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://chi-nine-zeta.vercel.app">CHI ATLAS</a></h4>
-A mission-control room for one city, with live CTA trains, scores and lake conditions on a 3D map of Chicago.
-<br/><sub><a href="https://chi-nine-zeta.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/chi">Code&nbsp;↗</a></sub>
+<h4><a href="https://edm-daw.vercel.app">EDM-DAW</a></h4>
+A music studio in a browser tab. Describe a song and Claude builds it as sections you can edit, or work in a full DAW with an AI companion whose every change you can accept or undo.
+<br/><sub><a href="https://edm-daw.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/edm-daw">Code&nbsp;↗</a></sub>
 </td>
 </tr>
 <tr>
