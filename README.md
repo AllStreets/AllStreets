@@ -43,7 +43,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <h3><a href="https://crucible-weld.vercel.app">Crucible</a></h3>
 <em>A lab notebook for AI agents.</em>
 <p>Open-source agents, cloned at pinned commits and set against each other on a shared machine. The results read as an editorial record, and every number on the page is a count of rows you can open.</p>
-<sub><a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
+<sub><a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
 </td>
 </tr>
 </table>
