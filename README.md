@@ -9,7 +9,7 @@ Two convictions run through my work. An interface should survive close inspectio
 
 At Flexport, alongside my sales role, I was picked to lead workflow automation for the sales team. That became **Scout**, an internal tool now used by Flexport sales teams in more than 30 countries. Before that, I founded two small software companies while studying at UNC.
 
-Three of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+Four of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
 
 <br/>
 
@@ -48,6 +48,21 @@ Three of these projects are written up as case studies at **[connor-evans.vercel
 <sub><a href="https://connor-evans.vercel.app/work/crucible/">Case study&nbsp;↗</a>&emsp;<a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/AllStreets/teardown"><img src="assets/teardown.webp" width="100%" alt="Teardown reading the Claude desktop app: the overview of every installed app, then a radial map of Claude's bundle with its largest parts labelled"/></a>
+<h3><a href="https://github.com/AllStreets/teardown">Teardown</a></h3>
+<em>Every app on your Mac, taken apart.</em>
+<p>Reads each installed app the way a reverse engineer would, with Apple's own tools, and explains it in plain English with the evidence beside every claim. Then it lets you act: roll back an update, take back a permission, switch off a background service. On my Mac it found 21 separate copies of Chromium.</p>
+<sub><a href="https://connor-evans.vercel.app/work/teardown/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a>&emsp;<code>TypeScript</code> <code>Rust</code> <code>React</code></sub>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h3>
+<em>A runtime that makes AI agents ask first.</em>
+<p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in two published red-team rounds. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks 4,690 open-source agents and says how each one was verified.</p>
+<sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
+</td>
+</tr>
 </table>
 
 <br/>
@@ -55,18 +70,6 @@ Three of these projects are written up as case studies at **[connor-evans.vercel
 ### Also built
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h4>
-A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in two published red-team rounds. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks 4,690 open-source agents and says how each one was verified.
-<br/><sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/teardown">teardown</a></h4>
-A Mac app that takes apart every app you have installed: how each one is built, what it can access, what it phones home to, and what changed when it updated. It runs locally and shows the evidence for every claim.
-<br/><sub><a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a></sub>
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 <h4><a href="https://edm-daw.vercel.app">EDM-DAW</a></h4>
