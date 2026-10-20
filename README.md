@@ -9,6 +9,8 @@ Two convictions run through my work. An interface should survive close inspectio
 
 At Flexport, alongside my sales role, I was picked to lead workflow automation for the sales team. That became **Scout**, an internal tool now used by Flexport sales teams in more than 30 countries. Before that, I founded two small software companies while studying at UNC.
 
+Three of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+
 <br/>
 
 ### Selected work
@@ -20,7 +22,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <h3><a href="https://chicago-open-world.vercel.app">Chicago Open World</a></h3>
 <em>A city you can fly through.</em>
 <p>All of Chicago in 3D, built from City of Chicago and OpenStreetMap data. More than 100,000 buildings stand at their true heights and light up floor by floor as the real sun goes down. On nights a Chicago team wins, the skyline wears its colors.</p>
-<sub><a href="https://chicago-open-world.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/Chicago-Open-World">Code&nbsp;↗</a>&emsp;<code>React</code> <code>Three.js</code> <code>GLSL</code></sub>
+<sub><a href="https://connor-evans.vercel.app/work/chicago-open-world/">Case study&nbsp;↗</a>&emsp;<a href="https://chicago-open-world.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/Chicago-Open-World">Code&nbsp;↗</a>&emsp;<code>React</code> <code>Three.js</code> <code>GLSL</code></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://f1-pixel-cup.vercel.app"><img src="assets/f1.webp" width="100%" alt="F1 Pixel Cup: the full field fighting through the first corner at Albert Park"/></a>
@@ -43,7 +45,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <h3><a href="https://crucible-weld.vercel.app">Crucible</a></h3>
 <em>A lab notebook for AI agents.</em>
 <p>Open-source agents, cloned at pinned commits and set against each other on a shared machine. The results read as an editorial record, and every number on the page is a count of rows you can open.</p>
-<sub><a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
+<sub><a href="https://connor-evans.vercel.app/work/crucible/">Case study&nbsp;↗</a>&emsp;<a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
 </td>
 </tr>
 </table>
@@ -95,7 +97,7 @@ An offline console for when the grid goes down, with a local model, 38 field gui
 
 ### Agent safety
 
-Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS) is a local-first runtime that checks every tool call against the manifest the agent declared and writes each decision to an audit ledger. I [red-teamed it myself](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) and published what broke and how I fixed it. [SMADP](https://allstreets.github.io/SMADP/) analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified. [Crucible](https://crucible-weld.vercel.app) sets open-source agents against each other on one machine and publishes what they actually did, down to every run.
+Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS) is a local-first runtime that checks every tool call against the manifest the agent declared and writes each decision to an audit ledger. I [red-teamed it myself](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) and published what broke and how I fixed it ([case study](https://connor-evans.vercel.app/work/aegis/)). [SMADP](https://allstreets.github.io/SMADP/) analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified. [Crucible](https://crucible-weld.vercel.app) sets open-source agents against each other on one machine and publishes what they actually did, down to every run.
 
 <br/>
 
