@@ -60,7 +60,7 @@ Four of these projects are written up as case studies at **[connor-evans.vercel.
 <a href="https://connor-evans.vercel.app/work/aegis/"><img src="assets/onexus.webp" width="100%" alt="ONEXUS's Aurora dashboard: a sample request makes an agent ask for a sensitive file write, Aegis holds it for a decision (allow once, always here, or deny), and the permission ledger records it as allowed"/></a>
 <h3><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h3>
 <em>A runtime that makes AI agents ask first.</em>
-<p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in two published red-team rounds. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks more than 5,000 open-source agents and says how each one was verified.</p>
+<p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in three published red-team rounds; the last put launched agents in a locked-down container behind an egress proxy. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks more than 5,000 open-source agents and says how each one was verified.</p>
 <sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
 </td>
 </tr>
