@@ -69,9 +69,9 @@ Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://hyperion-flax.vercel.app">GAM3</a></h4>
-A browser game about running a private orbital agency, with real orbital mechanics over a live Earth.
-<br/><sub><a href="https://hyperion-flax.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/GAM3">Code&nbsp;↗</a></sub>
+<h4><a href="https://github.com/AllStreets/teardown">teardown</a></h4>
+A Mac app that takes apart every app you have installed: how each one is built, what it can access, what it phones home to, and what changed when it updated. It runs locally and shows the evidence for every claim.
+<br/><sub><a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
 <h4><a href="https://edm-daw.vercel.app">EDM-DAW</a></h4>
