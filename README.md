@@ -57,38 +57,26 @@ Three of these projects are written up as case studies at **[connor-evans.vercel
 <table>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://onexus-agents.vercel.app">ONEXUS Agents</a></h4>
-An evidence-graded catalog of open-source AI agents, ranked by published weights, with every claim labeled by how it was verified.
-<br/><sub><a href="https://onexus-agents.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS-Agents">Code&nbsp;↗</a></sub>
+<h4><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h4>
+A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in two published red-team rounds. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks 4,690 open-source agents and says how each one was verified.
+<br/><sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
 </td>
-<td width="50%" valign="top">
-<h4><a href="https://allstreets.github.io/SMADP/">SMADP</a></h4>
-Analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified.
-<br/><sub><a href="https://allstreets.github.io/SMADP/">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/SMADP">Code&nbsp;↗</a></sub>
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <h4><a href="https://github.com/AllStreets/teardown">teardown</a></h4>
 A Mac app that takes apart every app you have installed: how each one is built, what it can access, what it phones home to, and what changed when it updated. It runs locally and shows the evidence for every claim.
 <br/><sub><a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h4><a href="https://edm-daw.vercel.app">EDM-DAW</a></h4>
 A music studio in a browser tab. Describe a song and Claude builds it as sections you can edit, or work in a full DAW with an AI companion whose every change you can accept or undo.
 <br/><sub><a href="https://edm-daw.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/edm-daw">Code&nbsp;↗</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
-An offline computer that extends itself. Describe a capability in one sentence; a local model plans it, writes and tests the code, and asks before it runs.
-<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
-An offline console for when the grid goes down, with a local model, 38 field guides, maps and navigation. It runs on one laptop and makes no external requests.
-<br/><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub>
+<h4><a href="https://github.com/AllStreets/loom">loom</a>, and <a href="https://github.com/AllStreets/ember">ember</a> before it</h4>
+Software that changes itself, and asks first. ember is an offline survival console whose Forge rewrites its own code from a plain-language request, then shows every check and the diff before anything is saved. loom makes that loop the whole product: describe a tool in one sentence and a local model plans it, writes and tests it, and asks before it runs.
+<br/><sub><a href="https://github.com/AllStreets/loom">loom&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ember">ember&nbsp;↗</a></sub>
 </td>
 </tr>
 </table>
@@ -97,7 +85,7 @@ An offline console for when the grid goes down, with a local model, 38 field gui
 
 ### Agent safety
 
-Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS) is a local-first runtime that checks every tool call against the manifest the agent declared and writes each decision to an audit ledger. I [red-teamed it myself](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) and published what broke and how I fixed it ([case study](https://connor-evans.vercel.app/work/aegis/)). [SMADP](https://allstreets.github.io/SMADP/) analyzes agents that share a filesystem, clipboard and OAuth scopes, and grades every verdict by how it was verified. [Crucible](https://crucible-weld.vercel.app) sets open-source agents against each other on one machine and publishes what they actually did, down to every run.
+Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS), above, is my answer for a single machine, and its [red-team](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) says plainly what it still doesn't protect. I started measuring how agents treat each other with [SMADP](https://allstreets.github.io/SMADP/), which estimated the risk of every pair from their documentation. Estimates scale, but nobody can check one, so I built [Crucible](https://crucible-weld.vercel.app) to run real agents against each other and publish what they actually did, down to every run.
 
 <br/>
 
