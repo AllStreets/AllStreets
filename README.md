@@ -9,8 +9,6 @@ Two convictions run through my work. An interface should survive close inspectio
 
 At Flexport, alongside my sales role, I was picked to lead workflow automation for the sales team. That became **Scout**, an internal tool now used by Flexport sales teams in more than 30 countries. Before that, I founded two small software companies while studying at UNC.
 
-Four of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
-
 <br/>
 
 ### Selected work
