@@ -85,6 +85,10 @@ Software that changes itself, and asks first. ember is an offline survival conso
 
 <br/>
 
+Four of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+
+<br/>
+
 ### Agent safety
 
 Under the interfaces, most of my work asks one question: how does an AI agent earn permission to act, and how do you stop one that shouldn't? [ONEXUS](https://github.com/AllStreets/ONEXUS), above, is my answer for a single machine, and its [red-team](https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md) says plainly what it still doesn't protect. I started measuring how agents treat each other with [SMADP](https://allstreets.github.io/SMADP/), which estimated the risk of every pair from their documentation. Estimates scale, but nobody can check one, so I built [Crucible](https://crucible-weld.vercel.app) to run real agents against each other and publish what they actually did, down to every run.
