@@ -71,14 +71,26 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <table>
 <tr>
 <td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/Assay">Assay</a></h4>
+A bill of materials for the whole Mac. It reads every app, AI model, extension and package down to the libraries inside, checks each against published advisories, and catches a model that would run code before anything loads it. Flaws are ranked by what each app can actually reach.
+<br/><sub><a href="https://github.com/AllStreets/Assay">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
 <h4><a href="https://edm-daw.vercel.app">EDM-DAW</a></h4>
 A music studio in a browser tab. Describe a song and Claude builds it as sections you can edit, or work in a full DAW with an AI companion whose every change you can accept or undo.
 <br/><sub><a href="https://edm-daw.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/edm-daw">Code&nbsp;↗</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/loom">loom</a>, and <a href="https://github.com/AllStreets/ember">ember</a> before it</h4>
-Software that changes itself, and asks first. ember is an offline survival console whose Forge rewrites its own code from a plain-language request, then shows every check and the diff before anything is saved. loom makes that loop the whole product: describe a tool in one sentence and a local model plans it, writes and tests it, and asks before it runs.
-<br/><sub><a href="https://github.com/AllStreets/loom">loom&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ember">ember&nbsp;↗</a></sub>
+<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
+An offline computer that builds itself. Describe a tool in one sentence and a local model plans it, writes the code and its tests, proves it in a sandbox, repairs its own failures, and asks before the new tool can run.
+<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
+An offline survival console for when the grid goes down: a local AI advisor, field guides, offline maps and a solar power budget, with no outside requests. Its Forge rewrites the console's own code from a plain request and shows every check and the diff before saving.
+<br/><sub><a href="https://github.com/AllStreets/ember">Code&nbsp;↗</a></sub>
 </td>
 </tr>
 </table>
