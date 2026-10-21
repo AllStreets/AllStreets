@@ -86,6 +86,7 @@ Software that changes itself, and asks first. ember is an offline survival conso
 <br/>
 
 Four of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+
 <br/>
 
 ### Agent safety
