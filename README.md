@@ -97,7 +97,7 @@ An offline survival console for when the grid goes down: a local AI advisor, fie
 
 <br/>
 
-Four of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+Five of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
 
 <br/>
 
