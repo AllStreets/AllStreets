@@ -83,9 +83,9 @@ A music studio in a browser tab. Describe a song and Claude builds it as section
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/loom">loom</a></h4>
-An offline computer that builds itself. Describe a tool in one sentence and a local model plans it, writes the code and its tests, proves it in a sandbox, repairs its own failures, and asks before the new tool can run.
-<br/><sub><a href="https://github.com/AllStreets/loom">Code&nbsp;↗</a></sub>
+<h4><a href="https://github.com/AllStreets/bombechat">Bombechat</a></h4>
+Encrypted messages between laptops in the same room, sent by sound. The speaker plays each message on tones most adults barely hear and the other Mac decrypts it on arrival, with no account, no server and no network code in the build. It looks and sounds like Turing's Bombe from Bletchley Park.
+<br/><sub><a href="https://github.com/AllStreets/bombechat">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
 <h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
