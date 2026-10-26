@@ -32,7 +32,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://coranto-production.up.railway.app"><img src="assets/coranto.webp" width="100%" alt="CORANTO's opening: a dive over Lake Michigan into Chicago, a pull-out to the whole globe, and the news view with its live feed"/></a>
+<a href="https://coranto-production.up.railway.app"><img src="assets/coranto.webp" width="100%" alt="CORANTO turning across the dawn line: Asia in daylight Blue Marble, the Middle East and Europe under city lights, stories and quakes marked, with the live newsfeed beside it"/></a>
 <h3><a href="https://coranto-production.up.railway.app">CORANTO</a></h3>
 <em>The news, placed on the planet.</em>
 <p>Live headlines on a 3D globe, each carrying its publisher, link, time and place. Stories are grouped across outlets, a source that goes down says so instead of going quiet, and anything a model wrote is labeled as such. Built on Bilawal Sidhu's <a href="https://github.com/bilawalsidhu/gods-eye-view">God's Eye View</a>; I added the news layer and the grounded briefs.</p>
