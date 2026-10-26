@@ -39,7 +39,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <sub><a href="https://coranto-production.up.railway.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/coranto">Code&nbsp;↗</a>&emsp;<code>CesiumJS</code> <code>Node</code> <code>Supabase</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/AllStreets/bombechat"><img src="assets/bombechat.webp" width="100%" alt="Bombechat: a message arriving by sound, the drums turning to each new frame while the provisional tape on the message sheet fills in, then the finished message set in type"/></a>
+<a href="https://github.com/AllStreets/bombechat"><picture><source srcset="assets/bombechat.avif" type="image/avif"><img src="assets/bombechat.webp" width="100%" alt="Bombechat: the drums turning as a message arrives by sound and settles in type, then the cursor opens Settings, the machine turns round to its back panel, and two patch plugs are pulled to new jacks, Send volume from 3 to 5 and Light switch from Off to Read and flash, while the wiring schedule updates beside them"/></picture></a>
 <h3><a href="https://github.com/AllStreets/bombechat">Bombechat</a></h3>
 <em>Messages that never touch the internet.</em>
 <p>Encrypted messages between laptops in the same room, sent by sound on sixteen tones between 17.6 and 19.8 kHz that most adults barely hear, or by light from one screen to the other laptop's camera. Each message is sealed with X25519 and XChaCha20-Poly1305 and signed with Ed25519, and there is no account, no server and no network code in the build. It looks and sounds like the machine Turing designed at Bletchley Park to break Enigma.</p>
