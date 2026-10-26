@@ -39,11 +39,11 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <sub><a href="https://coranto-production.up.railway.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/coranto">Code&nbsp;↗</a>&emsp;<code>CesiumJS</code> <code>Node</code> <code>Supabase</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://crucible-weld.vercel.app"><img src="assets/crucible.webp" width="100%" alt="Crucible: scrolling from the instrument record's front page into its trace of every run"/></a>
-<h3><a href="https://crucible-weld.vercel.app">Crucible</a></h3>
-<em>A lab notebook for AI agents.</em>
-<p>Open-source agents, cloned at pinned commits and set against each other on a shared machine. The results read as an editorial record, and every number on the page is a count of rows you can open.</p>
-<sub><a href="https://connor-evans.vercel.app/work/crucible/">Case study&nbsp;↗</a>&emsp;<a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a>&emsp;<code>Next.js</code> <code>Python</code></sub>
+<a href="https://github.com/AllStreets/bombechat"><img src="assets/bombechat.webp" width="100%" alt="Bombechat: a message arriving by sound, the drums turning to each new frame while the provisional tape on the message sheet fills in, then the finished message set in type"/></a>
+<h3><a href="https://github.com/AllStreets/bombechat">Bombechat</a></h3>
+<em>Messages that never touch the internet.</em>
+<p>Encrypted messages between laptops in the same room, sent by sound on sixteen tones between 17.6 and 19.8 kHz that most adults barely hear, or by light from one screen to the other laptop's camera. Each message is sealed with X25519 and XChaCha20-Poly1305 and signed with Ed25519, and there is no account, no server and no network code in the build. It looks and sounds like the machine Turing designed at Bletchley Park to break Enigma.</p>
+<sub><a href="https://github.com/AllStreets/bombechat">Code&nbsp;↗</a>&emsp;<code>Rust</code> <code>Tauri</code> <code>three.js</code> <code>SQLCipher</code></sub>
 </td>
 </tr>
 <tr>
@@ -55,11 +55,11 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <sub><a href="https://connor-evans.vercel.app/work/teardown/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a>&emsp;<code>TypeScript</code> <code>Rust</code> <code>React</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/AllStreets/bombechat"><img src="assets/bombechat.webp" width="100%" alt="Bombechat: a message arriving by sound, the drums turning to each new frame while the provisional tape on the message sheet fills in, then the finished message set in type"/></a>
-<h3><a href="https://github.com/AllStreets/bombechat">Bombechat</a></h3>
-<em>Messages that never touch the internet.</em>
-<p>Encrypted messages between laptops in the same room, sent by sound on sixteen tones between 17.6 and 19.8 kHz that most adults barely hear, or by light from one screen to the other laptop's camera. Each message is sealed with X25519 and XChaCha20-Poly1305 and signed with Ed25519, and there is no account, no server and no network code in the build. It looks and sounds like the machine Turing designed at Bletchley Park to break Enigma.</p>
-<sub><a href="https://github.com/AllStreets/bombechat">Code&nbsp;↗</a>&emsp;<code>Rust</code> <code>Tauri</code> <code>three.js</code> <code>SQLCipher</code></sub>
+<a href="https://connor-evans.vercel.app/work/aegis/"><img src="assets/onexus.webp" width="100%" alt="ONEXUS's kernel watch while agents work: Cortex sends routes out to the built-in modules, Aegis grants each call as it happens, and the whole window changes color as the mood moves from calm focus to creative to deep flow"/></a>
+<h3><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h3>
+<em>AI agents you can watch think.</em>
+<p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in three published red-team rounds; the last put launched agents in a locked-down container behind an egress proxy. The 53 agents in its store install that way, with none of your files and only the hosts you approve. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks more than 5,000 open-source agents and says how each one was verified.</p>
+<sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
 </td>
 </tr>
 </table>
@@ -83,9 +83,9 @@ A music studio in a browser tab. Describe a song and Claude builds it as section
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h4>
-A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in three published red-team rounds. Its public catalog ranks more than 5,000 open-source agents and says how each one was verified.
-<br/><sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
+<h4><a href="https://crucible-weld.vercel.app">Crucible</a></h4>
+A lab notebook for AI agents. Open-source agents, cloned at pinned commits, are set against each other on a shared machine, and the results read as an editorial record where every number on the page is a count of rows you can open.
+<br/><sub><a href="https://connor-evans.vercel.app/work/crucible/">Case study&nbsp;↗</a>&emsp;<a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
 <h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
