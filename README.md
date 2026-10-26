@@ -55,7 +55,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <sub><a href="https://connor-evans.vercel.app/work/teardown/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a>&emsp;<code>TypeScript</code> <code>Rust</code> <code>React</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://connor-evans.vercel.app/work/aegis/"><img src="assets/onexus.webp" width="100%" alt="ONEXUS's kernel watch while agents work: Cortex sends routes out to the built-in modules, Aegis grants each call as it happens, and the whole window changes color as the mood moves from calm focus to creative to deep flow"/></a>
+<a href="https://connor-evans.vercel.app/work/aegis/"><img src="assets/onexus.webp" width="100%" alt="ONEXUS in one take: a request to refactor the kernel runtime is typed and sent, Cortex routes it to Council and the whole window warms from calm teal to deliberating red, Council asks to write nexus/kernel/cortex.py, Allow once clears the request, and a thumbs-up lifts the trust rail"/></a>
 <h3><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h3>
 <em>AI agents you can watch think.</em>
 <p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in three published red-team rounds; the last put launched agents in a locked-down container behind an egress proxy. The 53 agents in its store install that way, with none of your files and only the hosts you approve. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks more than 5,000 open-source agents and says how each one was verified.</p>
