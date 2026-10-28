@@ -97,7 +97,7 @@ An offline survival console for when the grid goes down: a local AI advisor, fie
 
 <br/>
 
-See more of my work, on a 3D globe, at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+See my portfolio, on a 3D globe, at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
 
 <br/>
 
