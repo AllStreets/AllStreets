@@ -20,7 +20,7 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <h3><a href="https://chicago-open-world.vercel.app">Chicago Open World</a></h3>
 <em>A city you can fly through.</em>
 <p>All of Chicago in 3D, built from City of Chicago and OpenStreetMap data. More than 100,000 buildings stand at their true heights and light up floor by floor as the real sun goes down. On nights a Chicago team wins, the skyline wears its colors.</p>
-<sub><a href="https://connor-evans.vercel.app/work/chicago-open-world/">Case study&nbsp;↗</a>&emsp;<a href="https://chicago-open-world.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/Chicago-Open-World">Code&nbsp;↗</a>&emsp;<code>React</code> <code>Three.js</code> <code>GLSL</code></sub>
+<sub><a href="https://chicago-open-world.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/Chicago-Open-World">Code&nbsp;↗</a>&emsp;<code>React</code> <code>Three.js</code> <code>GLSL</code></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://f1-pixel-cup.vercel.app"><img src="assets/f1.webp" width="100%" alt="F1 Pixel Cup: the full field fighting through the first corner at Albert Park"/></a>
@@ -52,14 +52,14 @@ At Flexport, alongside my sales role, I was picked to lead workflow automation f
 <h3><a href="https://github.com/AllStreets/teardown">Teardown</a></h3>
 <em>Every app on your Mac, taken apart.</em>
 <p>Reads each installed app the way a reverse engineer would, with Apple's own tools, and explains it in plain English with the evidence beside every claim. Then it lets you act: roll back an update, take back a permission, switch off a background service. On my Mac it found 21 separate copies of Chromium.</p>
-<sub><a href="https://connor-evans.vercel.app/work/teardown/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a>&emsp;<code>TypeScript</code> <code>Rust</code> <code>React</code></sub>
+<sub><a href="https://github.com/AllStreets/teardown">Code&nbsp;↗</a>&emsp;<code>TypeScript</code> <code>Rust</code> <code>React</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://connor-evans.vercel.app/work/aegis/"><img src="assets/onexus.webp" width="100%" alt="ONEXUS in one take: a request to refactor the kernel runtime is typed and sent, Cortex routes it to Council and the whole window warms from calm teal to deliberating red, Council asks to write nexus/kernel/cortex.py, Allow once clears the request, and a thumbs-up lifts the trust rail"/></a>
+<a href="https://github.com/AllStreets/ONEXUS"><img src="assets/onexus.webp" width="100%" alt="ONEXUS in one take: a request to refactor the kernel runtime is typed and sent, Cortex routes it to Council and the whole window warms from calm teal to deliberating red, Council asks to write nexus/kernel/cortex.py, Allow once clears the request, and a thumbs-up lifts the trust rail"/></a>
 <h3><a href="https://github.com/AllStreets/ONEXUS">ONEXUS</a></h3>
 <em>AI agents you can watch think.</em>
 <p>A local-first runtime for AI agents. Every tool call is checked against the manifest the agent declared and written to a hash-chained ledger, and I attacked it myself in three published red-team rounds; the last put launched agents in a locked-down container behind an egress proxy. The 53 agents in its store install that way, with none of your files and only the hosts you approve. Its public catalog, <a href="https://onexus-agents.vercel.app">ONEXUS Agents</a>, ranks more than 5,000 open-source agents and says how each one was verified.</p>
-<sub><a href="https://connor-evans.vercel.app/work/aegis/">Case study&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
+<sub><a href="https://github.com/AllStreets/ONEXUS/blob/main/docs/REDTEAM-AEGIS.md">Red-team&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/ONEXUS">Code&nbsp;↗</a>&emsp;<a href="https://onexus-agents.vercel.app">Catalog&nbsp;↗</a></sub>
 </td>
 </tr>
 </table>
@@ -85,7 +85,7 @@ A music studio in a browser tab. Describe a song and Claude builds it as section
 <td width="50%" valign="top">
 <h4><a href="https://crucible-weld.vercel.app">Crucible</a></h4>
 A lab notebook for AI agents. Open-source agents, cloned at pinned commits, are set against each other on a shared machine, and the results read as an editorial record where every number on the page is a count of rows you can open.
-<br/><sub><a href="https://connor-evans.vercel.app/work/crucible/">Case study&nbsp;↗</a>&emsp;<a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a></sub>
+<br/><sub><a href="https://crucible-weld.vercel.app">Live&nbsp;↗</a>&emsp;<a href="https://github.com/AllStreets/crucible">Code&nbsp;↗</a></sub>
 </td>
 <td width="50%" valign="top">
 <h4><a href="https://github.com/AllStreets/ember">ember</a></h4>
@@ -97,7 +97,7 @@ An offline survival console for when the grid goes down: a local AI advisor, fie
 
 <br/>
 
-Five of these projects are written up as case studies at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
+Many of these projects are on my portfolio at **[connor-evans.vercel.app](https://connor-evans.vercel.app)**.
 
 <br/>
 
